@@ -88,24 +88,6 @@ export const SKILL_DATA = [
   },
 ] as const;
 
-export const SOCIALS = [
-  {
-    name: "Instagram",
-    icon: RxInstagramLogo,
-    link: "https://instagram.com",
-  },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
-  },
-] as const;
-
 export const FRONTEND_SKILL = [
   {
     skill_name: "HTML",
@@ -259,88 +241,58 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "Rowship (ETHEREUM)",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'This is mint website on avalanche network. I used Solidity(ERC 721) to write smart contract and Node/Express, MongoDB to make leaderboard page, and Next.js in front-end side. Mint supply is 500 NFTs.',
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://rowship.com/",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "The Worlds First Dapp Store",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'Pix is an NFT dapp that helps NFT collectors get the most out of their NFTs. Whether it is through collateralized loans, rent/borrow or reserve to buy later functions, Pix aims to help NFT owners to maximize their NFT utility without needing to sell it. Explore and create NFTs across Ethereum and Polygon on Pix.',
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://priviprotocol.io/",
   },
   {
-    title: "Space Themed Website",
+    title: "Gamma Finance (ETHEREUM)",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'A protocol for active liquidity management and market making strategies. 😜.Degen Taxi proves that the odds are as advertised (5% house edge) and that the rolls are predetermined and cannot react to how players bet. For more detailed information on the concept of Provably Fair you can always check here.',
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://gamma.xyz/",
   },
 ] as const;
 
-export const FOOTER_DATA = [
+export const EDUCATION = [
   {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
+    degree: "B.Sc. in Computer Science",
+    institution: "Oslo Metropolitan University (Oslo - Met)",
+    years: "2014–2016",
+    image: "/skills/OSLOMET.png",
+  }
+] as const;
+
+export const EXPERIENCE = [
+  {
+    title: "Blockchain Developer",
+    company: "CryptoCorp",
+    years: "2023–Present",
+    description: "Developing smart contracts and blockchain solutions for decentralized applications.",
+    image: "/skills/docker.png",
   },
   {
-    title: "Social Media",
-    data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
+    title: "FullStack Developer",
+    company: "TechLaunch",
+    years: "2020–2021",
+    description: "Assisted in developing internal tools and learned best practices in a fast-paced environment.",
+    image: "/skills/js.png",
   },
   {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
+    title: "Frontend Developer",
+    company: "WebStart",
+    years: "2016–2020",
+    description: "Built responsive web interfaces and collaborated with backend teams to deliver seamless user experiences.",
+    image: "/skills/react.png",
   },
 ] as const;
 
@@ -358,7 +310,3 @@ export const NAV_LINKS = [
     link: "#projects",
   },
 ] as const;
-
-export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
-};
